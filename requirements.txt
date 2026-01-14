@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+openai
+python-multipart
+pydantic
+faster-whisper
+google-generativeai
+ffmpeg
+streamlit 
+requests
+watchdog
