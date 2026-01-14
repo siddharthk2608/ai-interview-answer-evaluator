@@ -1,0 +1,66 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Byte-compiled / cache
+*.egg-info/
+*.eggs/
+*.dist-info/
+
+# ================= ENV & Secrets =================
+.env
+.env.*
+*.env
+config.json
+*.key
+*.secret
+
+# ================= Logs =================
+*.log
+logs/
+*.out
+
+# ================= OS files =================
+.DS_Store
+Thumbs.db
+
+# ================= Build / distribution =================
+build/
+dist/
+*.whl
+
+# ================= Python test cache =================
+.pytest_cache/
+
+# ================= Jupyter =================
+.ipynb_checkpoints/
+
+# ================= VSCode / IDE =================
+.vscode/
+.idea/
+
+# ================= Whisper / Audio =================
+# Ignore large audio uploaded locally — keep sample_audio only if needed
+sample_audio/*.wav
+sample_audio/*.mp3
+sample_audio/*.m4a
+
+# If you do want to keep sample_audio for demo, REMOVE above two lines.
+
+# ================= LLM / Model files =================
+*.pt
+*.bin
+*.pth
+*.onnx
+models/
+
+# ================= Misc =================
+.cache/
